@@ -120,7 +120,11 @@ python colorapp.py -i C:\Users\saiki\Desktop\Color_Detection_API\img.jpg
 ```
 
 
+### 7 Sample images of the project
 
+![sample1](Sample1.png)
+![sample2](Sample2.png)
+![sample3](Sample3.png)
 
 
 
