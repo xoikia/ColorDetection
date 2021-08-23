@@ -19,6 +19,17 @@ name=['color','color_name','Hex','R','G','B']
 color_file = pd.read_csv('colors.csv',names=name,header=None)
 
 
+def mouseclickfunction(event, x ,y, flags,param):
+    if event == cv2.EVENT_LBUTTONDBLCLK:
+        global b, g, r, mousex, mousey, clicked
+        clicked= True
+        mousex = x
+        mousey = y
+        b,g,r = img[y,x]
+        b, g, r = int(b), int(g), int(r)
+
+        
+        
 def extract_color_name(R, G, B):
     minimum= 10000
     for i in range(len(color_file)):
@@ -29,14 +40,6 @@ def extract_color_name(R, G, B):
     return colorname
 
 
-def mouseclickfunction(event, x ,y, flags,param):
-    if event == cv2.EVENT_LBUTTONDBLCLK:
-        global b, g, r, mousex, mousey, clicked
-        clicked= True
-        mousex = x
-        mousey = y
-        b,g,r = img[y,x]
-        b, g, r = int(b), int(g), int(r)
 
         
 '''bind the above function to a window that will capture the mouse click'''        
