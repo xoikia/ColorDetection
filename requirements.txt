@@ -1,0 +1,14 @@
+certifi==2021.5.30
+clock==0.1
+JsonForm==0.0.2
+JsonSir==0.0.2
+Pillow==8.0.1
+Python-EasyConfig==0.1.7
+Resource==0.2.1
+tzlocal==2.1
+wincertstore==0.2
+Flask
+opencv-python
+numpy
+pandas
+
