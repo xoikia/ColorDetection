@@ -1,9 +1,6 @@
 # ColorDetection
 
-Color Detection is the process of identifying colors, we humans can easily identify colors, but for a computer its not the case, When a computer process a image they just read the 
-pixels values ranging from 0 - 255. Any color for them is just a rnumber between this range. In this ColorDetection project we get the name of the color by just clicking over the 
-portion in the image. We will use a csv file which have colors with their names and their pixels value. Then we will calculate the distance of the pixels to each colors in the file 
-and finally select the one which has the minimal distance.
+Colour Detection is the process of identifying colours, we humans can easily identify colours, but for a computer, it's not the case, When a computer process an image they just read the pixels values ranging from 0 - 255. Any colour for them is just a number between this range. In this ColorDetection project, we get the name of the colour by just clicking over the portion in the image. We will use a CSV file that has colours with their names and their pixels value. Then we will calculate the distance of the pixels to each colour in the file and finally select the one which has the minimal distance.
 
 
 ## DATASET
